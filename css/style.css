@@ -1,0 +1,1941 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyacess/notosansjapanese.css);
+
+    /* 20211017 */
+
+    html{
+        scroll-behavior: smooth;
+    }
+ 
+
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+    
+    body{
+        min-height: 100vh;
+        width: 1680px;
+        margin: 0 auto;
+    }
+    
+    main{
+        width: 1680px;
+    }
+    
+    .container{
+        width: 1680px;
+        justify-content: center;
+    }
+    
+    /* header */
+    
+    .home_header_nav{
+        display: flex;
+        justify-content: space-between;
+        height: 68px;
+        margin: 10px auto;
+        width: 1470px;
+    }
+    
+    .home_header_nav .logo{
+        transform: scale(0.4);
+        margin: -15px 0px 0px 20px;
+        width: 10px;
+    }
+    
+    .header_list_nav{
+        margin: auto;
+        justify-content: center;
+    
+    
+        width: 500px;
+    }
+    
+    .list_nav{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .list_nav li{
+        font-size: 20px;
+        font-family: Helvetica;
+    }
+    
+    .header_list_sns{
+        float: right;   
+        width: 200px;
+        margin:0 0 0 0;
+    }
+    
+    .list_sns{
+        display: flex;
+        list-style-type: none;
+        width: 150px;
+        margin: 15px 0 0 0;
+    }
+    
+    .list_sns li{
+        display: inline-block;
+        padding: 0 0 0 10px;
+    }
+    
+    /* top */
+    
+    .area_home_top .container{
+        display: flex;
+        justify-content: space-between;
+        height: 900px;
+        margin: -100px auto;
+    }
+    
+    .home_top_left{
+        transform: scale(0.2);
+        width: 100px;
+        height: 100px;
+        margin: 150px 0px 0px 100px;
+    }
+    
+    .home_top_right{
+        width: 800px;
+        height: 600px;
+        margin: 150px 30px 0px 0px;
+    }
+    
+    .home_top_right h1{
+        margin: 50px auto 50px 50px;
+        text-align: center;
+        font-size: 90px;
+        width: 500px;
+        font-family: Helvetica;
+    
+        padding: 50px 0 0 0;
+    }
+    
+    
+    
+    .btn_restaurant{
+        display: inline-block;
+        padding: 14px 24px;
+        background-color: #db0840;
+        color: white;
+        font-size: 16px;
+        border-radius: 8px;
+        border-color: #db0840;
+        font-family: Helvetica;
+        float: left;
+        margin: 10px 10px 10px 100px;
+    }
+
+    .btn_restaurant a{
+        color: white;
+    }
+    
+    .btn_online_shop{
+        display: inline-block;
+        border: 1px solid;
+        border-radius: 8px;
+        background-color: #fff;
+        color: #7E7D7D;;
+        padding: 14px 24px;
+        font-size: 16px;
+        border-color: #7E7D7D;
+        font-family: Helvetica;
+        margin: 10px;
+    }
+
+    /* products */
+
+
+    .ttl_products{
+        text-align:center;
+        font-family: Helvetica;
+    }
+    
+    .ttl_products h2{  
+        font-size: 25px;
+        text-align:center;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+    }
+    
+    .ttl_products p{
+        font-size: 60px;
+        margin: 40px auto;
+        font-family: Helvetica;
+    }
+
+
+
+     /* Swiper 1*/
+
+
+    
+ .swiper-container{
+    width: 850px;
+    height: 800px;
+}
+
+
+.swiper-slide1{
+    transform: scale(0.5);
+    width: 850px;
+    height: 800px;
+    margin: -50px 0px 0px -215px;
+}
+
+.swiper-slide2{
+    transform: scale(0.5);
+    width: 850px;
+    height: 800px; 
+    margin: -50px 0px 0px -215px;
+}
+
+.swiper-slide3{
+    transform: scale(0.5);
+    width: 850px;
+    height: 800px;   
+    margin: -50px 0px 0px -215px;
+}
+
+.left_curry_ttl{
+    font-size: 20px;
+    margin: -200px 0px 0px 0px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.center_curry_ttl{
+    font-size: 20px;
+    margin: -200px 0px 0px 0px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.right_curry_ttl{
+    font-size: 20px;
+    margin: -200px 0px 0px 0px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+
+.swiper-button-prev{
+    color: #E21B4D;
+    margin: 1000px 0px 0px 0px;
+}
+
+.swiper-button-next{
+    color: #E21B4D;
+    margin: 1000px 0px 0px 0px;
+}
+
+.swiper-pagination{
+    color: #E21B4D;
+    margin: 1000px 0px 0px 0px;
+}
+
+
+
+
+
+
+.swiper-container {
+    width: 100%;
+    margin: 0px;
+    padding: 45px 0;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    opacity: 0.4;
+    overflow: hidden;
+    transition: 2.0s;
+}
+
+.swiper-slide img {
+    width: 850px;
+    height: 800px;
+    
+}
+
+.swiper-slide-active {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1.5); /* スライドの大きさ調整 */
+}
+
+
+
+
+
+
+    /* athletes */
+    
+    .area_home_athletes h2{
+        margin: 110px 0px 30px 100px;
+        font-family: Helvetica;
+    }
+    
+    .athletes_bg{
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/bg/bmx.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 0 100px 0;
+    
+    }
+    
+    .athletes_ttl{
+        font-size: 40px;
+        margin: 30px 0 0 130px;
+        padding: 400px 0 0 0;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    .athletes_description{
+        font-size: 120px;
+        margin: 50px 0 0 130px;
+        padding: 0 0 100px 0;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    /* events */
+    
+    .area_home_events h2{
+        margin: 30px 0px 30px 100px;
+        font-family: Helvetica;
+    }
+    
+    .area_home_events img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* order */
+    
+    .area_home_order{
+        margin: 200px 0 0 0;
+    }
+    
+    .ttl_order h2{
+        text-align:center;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+    }
+    
+    .ttl_order p{
+        text-align: center;
+        font-size: 60px;
+        margin: 40px auto;
+        font-family: Helvetica;
+    }
+    
+
+    /* Swiper 2*/
+
+    .swiper-container{
+        height: 700px;
+    }
+
+.swiper-slide4{
+    transform: scale(0.28);
+    width: 850px;
+    height: 850px;
+    margin: -130px 0px 0px -215px;
+}
+
+.swiper-slide4_ttl{
+    font-size: 20px;
+    text-align: center;
+    margin: -230px auto;
+    font-family: Helvetica;
+}
+
+.swiper-slide5{
+    transform: scale(0.4);
+    width: 850px;
+    height: 800px;
+    margin: -130px 0px 0px -215px;
+}
+
+.swiper-slide5_ttl{
+    font-size: 20px;
+    text-align: center;
+    margin: -250px auto;
+    font-family: Helvetica;
+}
+
+.swiper-slide6{
+    transform: scale(0.4);
+    width: 850px;
+    height: 800px;
+    margin: -130px 0px 0px -215px;
+}
+
+.swiper-slide6_ttl{
+    font-size: 20px;
+    text-align: center;
+    margin: -250px auto;
+    font-family: Helvetica;
+}
+
+.area_home_order .swiper-button-next{
+    margin: 4200px 0px 0px 0px;
+    color: #E21B4D;
+
+}
+
+.area_home_order .swiper-button-prev{
+    margin: 4200px 0px 0px 0px;
+    color: #E21B4D;
+
+}
+
+
+
+
+    /* restaurant */
+    
+    .area_home_restaurant h2{
+        text-align: center;
+        margin: 30px auto 50px auto;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+    }
+    
+    .area_home_restaurant ul{
+        float: left;
+        margin: auto 100px;
+    }
+    
+    .area_home_restaurant li{
+        list-style-type: none;
+    }
+    
+    .ttl_restaurant_hamamatsu{
+        font-size: 30px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_restaurant_hamamatsu{
+        font-size: 20px;
+        color: #7E7D7D;
+        margin: auto auto auto 15px;
+        font-family: Helvetica;
+    }
+    
+    .ttl_resutaurant_maisaka{
+        font-size: 15px;
+        margin: 0px auto 30px auto;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_resutaurant_maisaka{
+        font-size: 15px;
+        margin: 0px auto 50px 15px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+    }
+    
+    .ttl_resutaurant_factory{
+        font-size: 15px;
+        margin: 100px auto 30px auto;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_resutaurant_factory{
+        font-size: 15px;
+        margin: auto auto 100px 15px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+    }
+
+    .description_restaurant_hamamatsu_strikethrough1{
+        font-size: 15px;
+        margin: auto auto 50px 15px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+    }
+
+    .description_restaurant_hamamatsu_strikethrough2{
+        font-size: 13px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        margin: -40px 0px 50px 15px;
+    }
+    
+    iframe{
+        margin: 100px auto;
+    }
+    
+    /* footer */
+    
+    footer{
+        height: 100px;
+        clear: both;
+        text-align: center;
+        margin: 100px auto 0px auto;
+    }
+
+    .copyright{
+        font-family: Helvetica;
+        
+    }
+    
+    /* news */
+
+    .news_ttl{
+        text-align: center;
+        font-size: 25px;
+        margin: 10px auto;
+    }
+
+    .news_sub_ttl{
+        text-align: center;
+        font-size: 18px;
+        padding: 10px ;
+    }
+
+    .news_prologue{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 0px auto 10px auto;
+    }
+
+    .news_businees_hours_hamamatsu{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .news_businees_hours_factry{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .news_staff{
+        text-align: center;
+    }
+
+    .news_staff ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+        
+    }
+
+    .news_plesase{
+        text-align: center;
+    }
+
+    .news_plesase ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .news_final{
+        color: #7E7D7D;
+        text-align: center;
+    }
+
+    .news_map{
+        transform: scale(0.7);
+        width: 500px;
+        height: 50px;
+        margin: 100px 0px 0px -350px;
+    }
+
+    .news_img{
+        width: 500px;
+        height: 300px;
+        transform: scale(1.3);
+        padding: 150px 0px 0px 200px;
+        margin: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+   /* iPad ---------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width:900px){
+    
+    body{
+        min-height: 100vh;
+        width: 900px;
+        margin: 0 auto;
+    }
+    
+    main{
+        width: 900px;
+    }
+    
+    .container{
+        width: 900px;
+        justify-content: center;
+    }
+    
+    /* header */
+    
+    .home_header_nav{
+        display: flex;
+        justify-content: space-between;
+        height: 68px;
+        margin: 10px auto;
+        width: 900px;
+    }
+    
+    .home_header_nav .logo{
+        transform: scale(0.4);
+        margin: -15px 0px 0px 20px;
+        width: 10px;
+    }
+    
+    .header_list_nav{
+        margin: auto;
+        justify-content: center;
+        width: 400px;
+    }
+    
+    .list_nav{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+    
+    .list_nav li{
+        font-size: 18px;
+        font-family: Helvetica;
+        margin: 5px;
+    }
+    
+    .header_list_sns{
+        float: right;   
+        width: 200px;
+        margin:0 0 0 0;
+    }
+    
+    .list_sns{
+        display: flex;
+        list-style-type: none;
+        width: 150px;
+        margin: 15px 0 0 0;
+    }
+    
+    .list_sns li{
+        display: inline-block;
+        padding: 0 0 0 10px;
+    }
+    
+    /* top */
+    
+    .area_home_top .container{
+        display: flex;
+        justify-content: space-between;
+        height: 900px;
+        margin: -100px auto;
+    }
+    
+    .home_top_left{
+        transform: scale(0.14);
+        width: 100px;
+        height: 100px;
+        margin: 250px 10px 100px  0px;
+    }
+    
+    .home_top_right{
+        width: 800px;
+        height: 600px;
+        margin: 150px 0px 0px 150px;
+    }
+    
+    .home_top_right h1{
+        margin: 150px auto 10px 120px;
+        text-align: center;
+        font-size: 60px;
+        width: 500px;
+        font-family: Helvetica;
+        padding: 50px 0 0 0;
+    }
+    
+    
+    
+    .btn_restaurant{
+        display: inline-block;
+        padding: 12px 12px;
+        background-color: #db0840;
+        color: white;
+        font-size: 13px;
+        border-radius: 8px;
+        border-color: #db0840;
+        font-family: Helvetica;
+        float: left;
+        margin: 10px 0px 10px 230px;
+    }
+    
+    .btn_online_shop{
+        display: inline-block;
+        border: 1px solid;
+        border-radius: 8px;
+        background-color: #fff;
+        color: #7E7D7D;;
+        padding: 12px 12px;
+        font-size: 13px;
+        border-color: #7E7D7D;
+        font-family: Helvetica;
+        margin: 10px;
+    }
+    
+    /* products */
+
+
+    .ttl_products{
+        text-align:center;
+        font-family: Helvetica;
+    }
+    
+    .ttl_products h2{  
+        font-size: 25px;
+        text-align:center;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+    }
+    
+    .ttl_products p{
+        font-size: 60px;
+        margin: 40px auto;
+        font-family: Helvetica;
+    }
+
+
+ /* Swiper 1*/
+
+
+    
+ .swiper-container{
+    width: 850px;
+    height: 800px;
+}
+
+
+.swiper-slide1{
+    transform: scale(0.3);
+    width: 850px;
+    height: 800px;
+    margin: -120px 0px 0px -280px;
+}
+
+.swiper-slide2{
+    transform: scale(0.3);
+    width: 850px;
+    height: 800px; 
+    margin: -120px 0px 0px -280px;
+}
+
+.swiper-slide3{
+    transform: scale(0.3);
+    width: 850px;
+    height: 800px;   
+    margin: -120px 0px 0px -280px;
+}
+
+.left_curry_ttl{
+    font-size: 20px;
+    margin: -250px 0px 0px 0px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.center_curry_ttl{
+    font-size: 20px;
+    margin: -250px 0px 0px 0px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.right_curry_ttl{
+    font-size: 20px;
+    margin: -250px 0px 0px 0px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.area_home_products .swiper-button-prev{
+    color: #E21B4D;
+    margin: 950px 0px 0px 0px;
+}
+
+.area_home_products .swiper-button-next{
+    color: #E21B4D;
+    margin: 950px 0px 0px 0px;
+}
+
+.area_home_products .swiper-pagination{
+    color: #E21B4D;
+    margin: 950px 0px 0px 0px;
+}
+
+
+
+
+.swiper-container {
+    width: 100%;
+    margin: 0px;
+    padding: 45px 0;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    opacity: 0.4;
+    overflow: hidden;
+    transition: 2.0s;
+}
+
+.swiper-slide img {
+    width: 850px;
+    height: 800px;
+    
+}
+
+.swiper-slide-active {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1.8); /* スライドの大きさ調整 */
+}
+
+
+
+    
+    /* athletes */
+
+    .area_home_athletes h2{
+        margin: 30px 0px 30px 50px;
+        font-size: 18px;
+        font-family: Helvetica;
+    }
+    
+    .athletes_bg{
+        width: 900px;
+        height: 100%;
+        background-image: url("../img/bg/bmx.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin: 0 0 100px 0;
+    
+    }
+    
+    .athletes_ttl{
+        font-size: 30px;
+        margin: 30px 0 0 70px;
+        padding: 280px 0 120px 0;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    .athletes_description{
+        font-size: 80px;
+        margin: -100px 0 0 70px;
+        padding: 0 0 50px 0;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    /* events */
+    
+    .area_home_events h2{
+        margin: 30px 0px 30px 100px;
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    
+    .area_home_events img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* order */
+    
+    .area_home_order{
+        margin: 200px 0 0 0;
+    }
+    
+    .ttl_order h2{
+        text-align:center;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+    }
+    
+    .ttl_order p{
+        text-align: center;
+        font-size: 60px;
+        margin: 40px auto;
+        font-family: Helvetica;
+    }
+    
+
+/* Swiper 2*/
+
+.swiper-slide4{
+    transform: scale(0.2);
+    width: 850px;
+    height: 800px;
+    margin: -100px 0px 0px -275px;
+}
+
+.swiper-slide4_ttl{
+    font-size: 15px;
+    text-align: center;
+    margin: -280px auto;
+    font-family: Helvetica;
+}
+
+.swiper-slide5{
+    transform: scale(0.3);
+    width: 850px;
+    height: 800px;
+    margin: -100px 0px 0px -275px;
+}
+
+.swiper-slide5_ttl{
+    font-size: 15px;
+    text-align: center;
+    margin: -290px auto;
+    font-family: Helvetica;
+}
+
+.swiper-slide6{
+    transform: scale(0.3);
+    width: 850px;
+    height: 800px;
+    margin: -100px 0px 0px -275px;
+}
+
+.swiper-slide6_ttl{
+    font-size: 15px;
+    text-align: center;
+    margin: -300px auto;
+    font-family: Helvetica;
+}
+
+.area_home_order .swiper-button-next{
+    margin: 3500px 0px 0px 0px;
+    color: #E21B4D;
+
+}
+
+.area_home_order .swiper-button-prev{
+    margin: 3500px 0px 0px 0px;
+    color: #E21B4D;
+
+}
+
+    
+    /* restaurant */
+    
+    .area_home_restaurant h2{
+        text-align: center;
+        margin: 30px auto 30px auto;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    
+    .area_home_restaurant ul{
+        float: left;
+        margin: auto 10px;
+        padding: 10px 0px 0px 40px;
+    }
+    
+    .area_home_restaurant li{
+        list-style-type: none;
+    }
+    
+    .ttl_restaurant_hamamatsu{
+        font-size: 20px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_restaurant_hamamatsu{
+        font-size: 15px;
+        color: #7E7D7D;
+        margin: auto auto auto 15px;
+        font-family: Helvetica;
+    }
+    
+    .ttl_resutaurant_maisaka{
+        font-size: 15px;
+        margin: 100px auto 30px auto;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_resutaurant_maisaka{
+        font-size: 13px;
+        margin: auto auto 50px 15px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+    }
+    
+    .ttl_resutaurant_factory{
+        font-size: 15px;
+        margin: auto auto 30px auto;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_resutaurant_factory{
+        font-size: 13px;
+        margin: auto auto 100px 15px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+    }
+    
+    iframe{
+        margin: 100px 100px;
+    }
+    
+    /* footer */
+    
+    footer{
+        height: 100px;
+        clear: both;
+        text-align: center;
+    }
+    
+    .copyright{
+        font-family: Helvetica;
+    }
+
+
+    /* news */
+
+    .news_ttl{
+        text-align: center;
+        font-size: 25px;
+        margin: 10px auto;
+    }
+
+    .news_sub_ttl{
+        text-align: center;
+        font-size: 18px;
+        padding: 10px ;
+    }
+
+    .news_prologue{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 0px auto 10px auto;
+    }
+
+    .news_businees_hours_hamamatsu{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .news_businees_hours_factry{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .news_staff{
+        text-align: center;
+    }
+
+    .news_staff ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+        
+    }
+
+    .news_plesase{
+        text-align: center;
+    }
+
+    .news_plesase ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .news_final{
+        color: #7E7D7D;
+        text-align: center;
+        
+    }
+
+    .news_img{
+        width: 300px;
+        height: 800px;
+        transform: scale(1.4);
+        margin: 0px 0px 0px 250px ;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news_map{
+        transform: scale(0.7);
+        width: 375px;
+        height: 50px;
+        margin: -80px 0px 300px -280px;
+    }
+
+
+
+}
+
+ /* iPhone ---------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 375px) {
+    
+    body{
+        min-height: 100vh;
+        width: 375px;
+        margin: 0 auto;
+    }
+    
+    main{
+        width: 375px;
+    }
+    
+    .container{
+        width: 375px;
+        justify-content: center;
+    }
+    
+    /* header */
+    
+    .home_header_nav{
+        display: flex;
+        justify-content: space-between;
+        height: 68px;
+        margin: 10px auto;
+        width: 375px;
+    }
+    
+    .home_header_nav .logo{
+        transform: scale(0.4);
+        margin: -15px 0px 0px 20px;
+        width: 10px;
+    }
+    
+    .header_list_nav{
+        margin: auto;
+        justify-content: center;
+        width: 300px;
+    }
+    
+    .list_nav{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .list_nav a{
+        color: white;
+    }
+    
+    .list_nav li{
+        
+    }
+    
+    .header_list_sns{
+        float: right;   
+        width: 200px;
+        margin:0 0 0 0;
+
+        position: fixed;
+	    top: 0;
+	    right: -100%;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 2;
+    }
+
+    .header_list_sns .open{
+        right: 0px;
+    }
+    
+    .list_sns{
+        display: flex;
+        list-style-type: none;
+        width: 150px;
+        margin: 15px 0 0 0;
+    }
+    
+    .list_sns li{
+        
+        padding: 0 0 0 10px;
+    }
+    
+    /* top */
+    
+    .area_home_top .container{
+       
+        height: 1000px;
+        margin: -100px auto;
+    }
+    
+    .home_top_left{
+        transform: scale(0.12);
+        width: 100px;
+        height: 100px;
+        margin: 420px 0px 0px -40px;
+    }
+    
+    .home_top_right{
+        width: 375px;
+        height: 300px;
+        margin: 100px 0px 10px 50px;
+    }
+    
+    .home_top_right h1{
+        margin: 10px 0px 0px -110px;
+        text-align: center;
+        font-size: 50px;
+        width: 375px;
+        font-family: Helvetica;
+        padding: 50px 0 0 0;
+    }
+    
+    .btn_restaurant{
+        display: inline-block;
+        padding: 12px 12px;
+        background-color: #db0840;
+        color: white;
+        font-size: 13px;
+        border-radius: 8px;
+        border-color: #db0840;
+        font-family: Helvetica;
+        float: left;
+        margin: 20px 0px 10px -70px;
+    }
+    
+    .btn_online_shop{
+        display: inline-block;
+        border: 1px solid;
+        border-radius: 8px;
+        background-color: #fff;
+        color: #7E7D7D;;
+        padding: 12px 12px;
+        font-size: 13px;
+        border-color: #7E7D7D;
+        font-family: Helvetica;
+        margin: 20px 0px 0px 10px;
+    }
+    
+    /* products */
+    
+    .ttl_products{
+        text-align:center;
+        font-family: Helvetica;
+    }
+    
+    .ttl_products h2{
+        
+        font-size: 18px;
+        text-align:center;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+    }
+
+    .ttl_products p{
+        font-size: 38px;
+    }
+    
+   
+    /* Swiper 1*/
+
+
+    
+    .swiper-container{
+        width: 375px;
+        height: 375px;
+    }
+    
+    
+    .swiper-slide1{
+        transform: scale(0.7);
+        width: 375px;
+        height: 375px;
+        margin: -20px 0px 0px -70px;
+    }
+    
+    .swiper-slide2{
+        transform: scale(0.7);
+        width: 375px;
+        height: 375px; 
+        margin: -20px 0px 0px -70px;
+    }
+    
+    .swiper-slide3{
+        transform: scale(0.7);
+        width: 375px;
+        height: 375px;   
+        margin: -20px 0px 0px -70px;
+    }
+
+    .left_curry_ttl{
+        font-size: 13px;
+        margin: -60px 0px 0px 0px;
+        font-family: Helvetica;
+        text-align: center;
+    }
+
+    .center_curry_ttl{
+        font-size: 13px;
+        margin: -60px 0px 0px 0px;
+        font-family: Helvetica;
+        text-align: center;
+    }
+
+    .right_curry_ttl{
+        font-size: 13px;
+        margin: -60px 0px 0px 0px;
+        font-family: Helvetica;
+        text-align: center;
+    }
+
+    .area_home_products .swiper-button-prev{
+        color: #E21B4D;
+        margin: 960px 0px 0px 0px;
+    }
+
+    .area_home_products .swiper-button-next{
+        color: #E21B4D;
+        margin: 960px 0px 0px 0px;
+    }
+
+    .area_home_products .swiper-pagination{
+        color: #E21B4D;
+        margin: 960px 0px 0px 0px;
+    }
+
+
+
+
+
+
+    .swiper-container {
+        width: 100%;
+        margin: 0px;
+        padding: 45px 0;
+        overflow: hidden;
+    }
+    
+    .swiper-slide {
+        opacity: 0.4;
+        overflow: hidden;
+        transition: 2.0s;
+    }
+    
+    .swiper-slide img {
+        width: 375px;
+        height: 350px;
+        
+    }
+    
+    .swiper-slide-active {
+        opacity: 1;
+        z-index: 1;
+        transform: scale(1.3); /* スライドの大きさ調整 */
+    }
+    
+
+
+
+
+
+    
+    /* athletes */
+
+    .area_home_athletes{
+        height: 350px;
+    }
+    
+    .area_home_athletes h2{
+        margin: 30px 0px 30px 50px;
+        font-size: 18px;
+        font-family: Helvetica;
+    }
+    
+    .athletes_bg{
+        width: 375px;
+        height: 100%;
+        background-image: url("../img/bg/bmx.jpg");
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin: 0 0 100px 0;
+    
+    }
+    
+    .athletes_ttl{
+        font-size: 20px;
+        margin: 30px 0 0 30px;
+        padding: 100px 0 100px 0;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    .athletes_description{
+        font-size: 50px;
+        margin: -100px 0 0 30px;
+        padding: 0 0 20px 0;
+        color: white;
+        font-family: Helvetica;
+    }
+    
+    
+    /* events */
+
+    .area_home_events{
+        height: 200px;
+    }
+    
+    .area_home_events h2{
+        margin: 30px 0px 30px 50px;
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    
+    .area_home_events img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* order */
+    
+    .area_home_order{
+        margin: 200px 0 0 0;
+    }
+    
+    .ttl_order h2{
+        text-align:center;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    
+    .ttl_order p{
+        text-align: center;
+        font-size: 38px;
+        margin: 40px auto;
+        font-family: Helvetica;
+    }
+
+    /* Swiper 2*/
+
+    .swiper-slide4{
+        transform: scale(0.4);
+        width: 360px;
+        
+        margin: -30px 0px 0px -70px;
+    }
+
+    .swiper-slide4_ttl{
+        font-size: 13px;
+        text-align: center;
+        margin: -80px auto;
+        font-family: Helvetica;
+    }
+
+    .swiper-slide5{
+        transform: scale(0.6);
+        width: 375px;
+        
+        margin: -30px 0px 0px -70px;
+    }
+
+    .swiper-slide5_ttl{
+        font-size: 13px;
+        text-align: center;
+        margin: -80px auto;
+        font-family: Helvetica;
+    }
+
+    .swiper-slide6{
+        transform: scale(0.6);
+        width: 375px;
+       
+        margin: -30px 0px 0px -70px;
+    }
+
+    .swiper-slide6_ttl{
+        font-size: 13px;
+        text-align: center;
+        margin: -80px auto;
+        font-family: Helvetica;
+    }
+
+    .area_home_order .swiper-button-next{
+        margin: 2490px 0px 0px 0px;
+    }
+
+    .area_home_order .swiper-button-prev{
+        margin: 2490px 0px 0px 0px;
+    }
+
+
+    /* restaurant */
+    
+    .area_home_restaurant h2{
+        text-align: center;
+        margin: 30px auto 30px auto;
+        text-decoration:underline;
+        text-decoration-color:#E21B4D;
+        text-decoration-thickness: 3px;
+        font-family: Helvetica;
+        font-size: 18px;
+    }
+    
+    .area_home_restaurant ul{
+        float: left;
+        margin: auto 0px;
+        padding: 10px 0px 0px 40px;
+    }
+    
+    .area_home_restaurant li{
+        list-style-type: none;
+    }
+    
+    .ttl_restaurant_hamamatsu{
+        font-size: 18px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_restaurant_hamamatsu{
+        font-size: 14px;
+        color: #7E7D7D;
+        margin: auto auto auto 15px;
+        font-family: Helvetica;
+    }
+    
+    .ttl_resutaurant_maisaka{
+        font-size: 17px;
+        margin: 100px auto 30px auto;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_resutaurant_maisaka{
+        font-size: 13px;
+        margin: auto auto 50px 15px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+    }
+    
+    .ttl_resutaurant_factory{
+        font-size: 17px;
+        margin: auto auto 30px auto;
+        color: #7E7D7D;
+        font-family: Helvetica;
+        text-decoration:underline;
+        text-decoration-color:#7E7D7D;
+        text-decoration-thickness: 1px;
+    }
+    
+    .description_resutaurant_factory{
+        font-size: 13px;
+        margin: auto auto 70px 15px;
+        color: #7E7D7D;
+        font-family: Helvetica;
+    }
+    
+    iframe{
+        width: 375px;
+        margin: 0px 0px;
+    }
+    
+    /* footer */
+    
+    footer{
+        height: 100px;
+        clear: both;
+        text-align: center;
+    }
+    
+    .copyright{
+        font-family: Helvetica;
+    }
+
+
+
+    /* hamburger */
+
+
+    .nav{
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #001e3c;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* 初期：非表示 */
+        visibility: hidden;
+        opacity: 0;
+        /* ふわっと表示 */
+        transition: 0.5s ease-in-out;
+      }
+      .nav ul{
+        list-style:none;
+      }
+      .nav li:not(:last-child){
+        margin-bottom: 30px;
+      }
+      .nav a{
+        color: #ffffff;
+      }
+
+      .list_nav{
+        margin: 0px 0px 500px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
+      .list_sns{
+        z-index: 100;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #001e3c;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* 初期：非表示 */
+        visibility: hidden;
+        opacity: 0;
+        /* ふわっと表示 */
+        transition: 0.5s ease-in-out;
+      }
+      .list_sns ul{
+        list-style:none;
+      }
+      .list_sns li:not(:last-child){
+        margin-bottom: 30px;
+      }
+      .list_sns a{
+        color: #ffffff;
+      }
+
+      .list_nav{
+        margin: 0px 0px 300px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    
+    /* ナビゲーションボタン（開く） */
+    #navbtn{
+      position: fixed;
+      top: 30px;
+      right: 20px;
+      padding: 0;
+      outline: none;
+      border: none;
+      background: none;
+      width: 30px;
+      height: 20px;
+      cursor: pointer;
+    }
+    
+    #navbtn::before,
+    #navbtn::after{
+      content : '';
+      display: block;
+      height: 1px;
+      background-color: #E21B4D;
+      transform: translateY(10px);
+      transition: 0.3s ease-in-out;
+    }
+    
+    #navbtn::before{
+      transform: translateY(-10px);
+      box-shadow: 0 10px #E21B4D;
+    }
+    
+    /* ナビゲーションボタン（閉じる） */
+    .open #navbtn{
+      z-index: 100;
+    }
+    .open #navbtn::before{
+      transform: rotate(-45deg);
+      box-shadow: none;
+    }
+    .open #navbtn::after{
+      transform: rotate(45deg);
+      box-shadow: none;
+    }
+    /* ナビゲーションメニュー 開いた時*/
+    .open .nav{
+      visibility: visible;
+      opacity: 1;
+    }
+
+
+     /* news */
+
+     .news_ttl{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px auto;
+    }
+
+    .news_sub_ttl{
+        text-align: center;
+        font-size: 12px;
+        padding: 10px ;
+    }
+
+    .news_prologue{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 0px auto 10px auto;
+        font-size: 14px;
+    }
+
+    .news_businees_hours_hamamatsu{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .news_businees_hours_factry{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .news_staff{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .news_staff ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+        font-size: 14px;
+        
+    }
+
+    .news_plesase{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .news_plesase ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .news_final{
+        color: #7E7D7D;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .news_img{
+        width: 500px;
+        height: 800px;
+        transform: scale(0.25);
+        margin: -350px 0px 0px -280px ;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news_map{
+        transform: scale(3.1);
+        width: 375px;
+        height: 50px;
+        margin: 100px 0px 0px 450px;
+    }
+
+}
+
+    @media(min-width: 376px){
+      /* PCではボタン非表示 */
+      #navbtn{
+        display:none;
+      }
+      /* ヘッダーは横並び */
+      header{
+        display: flex;
+        align-items: center;
+      }
+      /* メニューを右に寄せる */
+      .nav{
+        /* 右寄せ */
+        margin-left: auto;
+      }
+      .nav ul{
+        display: flex;
+        list-style:none
+      }
+      .nav ul li:not(:first-child){
+        margin-left:20px;
+      }
+      .nav ul li a { 
+        color: #000000;
+      }
+
+
+     /* news */
+
+     .news_ttl{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px auto;
+    }
+
+    .news_sub_ttl{
+        text-align: center;
+        font-size: 12px;
+        padding: 10px ;
+    }
+
+    .news_prologue{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 0px auto 10px auto;
+        font-size: 14px;
+    }
+
+    .news_businees_hours_hamamatsu{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .news_businees_hours_factry{
+        color: #7E7D7D;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .news_staff{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .news_staff ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+        font-size: 14px;
+        
+    }
+
+    .news_plesase{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .news_plesase ul{
+        color: #7E7D7D;
+        text-align: center;
+        list-style:none;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .news_final{
+        color: #7E7D7D;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .news_restaurant{
+        transform: scale(0.35);
+        margin: -250px 0px 0px -450px;
+       
+    }
+
+    .news_map iframe{
+        transform: scale(1.0);
+        widows: 100%;
+        margin: -250px 0px 50px 0px;
+       
+    }
+
+    }
